@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+}
+
+.hdr_main {
+    margin: 0 0 20px;
+}
+
+.intro_text {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Alata', sans-serif;
+}
+
+.intro_text {
+    text-align: center;
+}
+
+.cars {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+img {
+    height: 100%;
+    padding: 0 10px;
+}
