@@ -26,13 +26,13 @@ nav {
     text-transform: uppercase;
 }
 
-.menu_item a {
+.menu_item .rf {
     position: relative;
     text-decoration: none;
     color: #000;
 }
 
-.menu_item a:after {
+.menu_item .rf:after {
     position: absolute;
     display: block;
     content: "";
@@ -44,7 +44,7 @@ nav {
     transition: 0.1s linear;
 }
 
-.menu_item a:hover:after {
+.menu_item .rf:hover:after {
     opacity: 1;
     margin-top: 5px;
 }
