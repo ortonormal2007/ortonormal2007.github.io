@@ -5,13 +5,14 @@ body {
 
 .hdr_main {
     margin: 0 0 20px;
+    text-align: center;
 }
 
 .intro_text {
     text-align: center;
 }
 
-h1 {
+h1,h2,h3,h4,h5 {
     font-family: 'Alata', sans-serif;
 }
 
