@@ -1,11 +1,33 @@
 body {
+    margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 14pt;
 }
 
+header {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 15px 0;
+}
+
 .hdr_main {
-    margin: 0 0 20px;
-    text-align: center;
+    margin: 0 0 0 0;
+}
+
+.hdr {
+    text-align: left;
+    font-size: 20pt;
+}
+
+.toyota_logo {
+    height: 100%;
+    margin: 0 0 0 0;
+}
+
+.logo {
+    padding: 0;
+    background-color: #fff;
 }
 
 nav {
@@ -49,11 +71,17 @@ nav {
     margin-top: 5px;
 }
 
+p {
+    text-align: justify;
+    margin: 0 10px;
+}
+
 .intro_text {
     text-align: center;
 }
 
 h1,h2,h3,h4,h5 {
+    margin: 10px 0 0 20px;
     font-family: 'Alata', sans-serif;
 }
 
@@ -62,6 +90,7 @@ h1,h2,h3,h4,h5 {
 }
 
 .cars {
+    margin-bottom: 20px;
     height: 200px;
     display: flex;
     justify-content: center;
