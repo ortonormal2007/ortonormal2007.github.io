@@ -74,6 +74,8 @@ nav {
 p {
     text-align: justify;
     margin: 0 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
 }
 
 .intro_text {
@@ -100,4 +102,17 @@ h1,h2,h3,h4,h5 {
 img {
     height: 100%;
     padding: 0 10px;
+}
+
+.fg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fg_descr {
+    width: 75%;
+    font-size: 14pt;
+}
+.fg_wids {
+    width: 20%;
 }
