@@ -79,7 +79,6 @@ nav {
 }
 
 .background img {
-    margin-top: -20%;
     width: 100%;
     opacity: 0.2;
 }
@@ -147,6 +146,10 @@ nav {
     /* position: relative; */
 }
 
+.articles__block {
+    margin-bottom: 80px;
+}
+
 .articles__title {
     margin: 30px 0;
     text-align: left;
@@ -155,8 +158,6 @@ nav {
 }
 
 .articles__picture {
-    /* display: block;
-    position: absolute; */
     transform: translateX(-50%);
     margin-left: 50%;
     width: 98.8vw;
@@ -164,4 +165,13 @@ nav {
 
 .articles__picture img{
     width: 100%;
+}
+
+.corolla img{
+    padding-top: -40%;
+
+}
+
+.articles__content {
+    margin: 0 50px;
 }
