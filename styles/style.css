@@ -27,6 +27,7 @@ body {
     height: 100%;
 }
 
+
 nav {
     border-bottom: 3px solid #999;
     border-top: 3px solid #999;
@@ -109,6 +110,7 @@ nav {
     text-align: center;
 }
 
+
 .intro__pictures {
     display: flex;
     justify-content: space-around;
@@ -124,6 +126,22 @@ nav {
 .pictures__item img {
     height: 100%;
 }
+
+
+@media (max-width: 720px){
+    .intro__pictures {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 500px;
+    }
+
+    .pictures__item {
+        height: 30%;
+    }
+}
+
 
 .content__cars {
     padding: 0 5%;
