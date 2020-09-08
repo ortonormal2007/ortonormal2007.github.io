@@ -48,10 +48,9 @@ nav {
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-
 }
 
-.menu__item:after{
+.menu__item>a:after{
     position: absolute;
     display: block;
     content: "";
@@ -63,12 +62,13 @@ nav {
     transition: 0.1s linear;
 }
 
-.menu__item:hover:after {
-    opacity: 1;
+.menu__item>a:hover:after {
+    opacity: 1; 
     margin-top: 0px;
 }
 
 .menu__item .ref {
+    margin: 0;
     text-decoration: none;
     color: #000;
 }
@@ -83,6 +83,7 @@ nav {
 }
 
 .background img {
+    margin-top: -5%;
     min-width: 100vw;
     min-height: 100vh;
     opacity: 0.2;
@@ -92,7 +93,7 @@ nav {
     margin: 0 5% 50px;
 }
 
-.content__intro:after {
+.content__intro::after {
     display: block;
     content: "";
     width: 300px;
@@ -109,7 +110,7 @@ nav {
 }
 
 .intro__text {
-    margin: 50px;
+    margin: 50px 3%;
     font-size: 12pt;
     text-align: center;
 }
@@ -119,7 +120,7 @@ nav {
     display: flex;
     justify-content: space-around;
     margin: 0;
-    height: 150px;
+    height: 200px;
 }
 
 .pictures__item {
@@ -129,6 +130,7 @@ nav {
 
 .pictures__item img {
     height: 100%;
+    box-shadow: 5px 5px 10px #00000080;
 }
 
 
@@ -159,13 +161,9 @@ nav {
 }
 
 .cars__intro {
-    margin: 0 75px;
+    margin: 0 7%;
     font-size: 10pt;
     text-align: center;
-}
-
-.cars__articles {
-    /* position: relative; */
 }
 
 .articles__block {
@@ -195,5 +193,38 @@ nav {
 }
 
 .articles__content {
-    margin: 0 50px;
+    margin: 0 2.5%;
+}
+
+.foot__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    height: 100px;
+    background-color: #bd7100a0;
+    border-top: 5px solid #bd7100;
+}
+
+.foot__contacts {
+    margin: 5px 0 0 5px;
+    width: 180px;
+}
+
+.foot__contacts p {
+    margin: 0 0 5px;
+}
+
+.foot__links {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.foot__links a {
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #000;
 }
